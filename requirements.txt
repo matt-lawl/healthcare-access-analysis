@@ -1,0 +1,31 @@
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+geopandas>=0.12.0
+scikit-learn>=1.2.0
+jupyter>=1.0.0
+```
+
+## **Optional: Add a `.gitignore` file** for Python projects:
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+*.csv
+*.xlsx
+data/raw/*
+!data/raw/.gitkeep
+
+# OS
+.DS_Store
